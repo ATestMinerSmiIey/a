@@ -3,7 +3,8 @@ export type ListingCategoryId =
   | "thc_edibles"
   | "thc_pens"
   | "codeine"
-  | "codeine_syrup";
+  | "codeine_syrup"
+  | "promethazine";
 
 export const LISTING_CATEGORIES: { id: ListingCategoryId; label: string; sectionTitle: string }[] = [
   { id: "general", label: "General", sectionTitle: "General" },
@@ -11,6 +12,7 @@ export const LISTING_CATEGORIES: { id: ListingCategoryId; label: string; section
   { id: "thc_pens", label: "THC pens", sectionTitle: "THC pens" },
   { id: "codeine", label: "Codeine", sectionTitle: "Codeine" },
   { id: "codeine_syrup", label: "Codeine syrup", sectionTitle: "Codeine syrup" },
+  { id: "promethazine", label: "Promethazine", sectionTitle: "Promethazine" }
 ];
 
 /** All valid category ids (for URL + DB validation). */
